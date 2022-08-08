@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+
+body{
+    background-color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 42px;
+    margin-bottom: 73px;  
+}
+
+.text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom:61px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    
+}
+
+.list_cards{
+    display: flex;
+    gap: 26px;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+
+.cards:hover{
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.cards p{
+    margin-top: 26px;
+    color: white;
+    margin-bottom: 102px;
+}
+
+.cards img{
+    border-radius: 10px;
+    width: 160px;
+    height: 160px; 
+    border: 3px solid transparent;
+}
+
+.cards img:hover{
+    border: 3px solid white;
+    filter: brightness(2.5);
+    
+}
+
+
+
+.botao{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.botao button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 206px;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    border: 1.5px solid white;
+}
+
+
+
+.botao button:hover{
+    background-color: white;
+    color: black;
+}
